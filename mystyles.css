@@ -48,6 +48,14 @@ dt { color: #000000;
 .resort { color: #000000;
           font-size: 1.2em;
 }
+.resort ul { list-style-type: none;
+}
+.resort a { color: #000033;
+            text-decoration: none;
+}
+.resort a:hover { color: #FF0000;
+                 text-decoration: underline;
+}
 footer { font-size: 0.70em;
        text-align: center;
        font-style: italic;
@@ -71,3 +79,12 @@ main img { float: left;
 main ul { list-style-position: inside; }
 .clear { clear: both; }
 header, nav, main, footer { display: block; }
+
+.member {
+    width: 100%;
+    height: 200px;
+}
+.member img {
+    width: 100px;
+    height: auto;
+}
